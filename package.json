@@ -1,0 +1,21 @@
+{
+  "name": "satellite-tracking-online",
+  "version": "1.0.0",
+  "description": "Tracking satellite audiovisual installation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "request": "^2.88.2"
+  }
+}
